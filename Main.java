@@ -46,7 +46,7 @@ public class Main {
 
   static void ifTest() {
     boolean tenki = true;
-    if(tenki == true) {
+    if (tenki == true) {
       System.out.println("洗濯をします");
       System.out.println("散歩に行きます");
     } else {
@@ -61,8 +61,8 @@ public class Main {
 
   static void whileTest() {
     int temp = 25;
-    
-    while(temp > 25) {
+
+    while (temp > 25) {
       temp--;
       System.out.println("温度が" + temp + "度になりました");
     }
@@ -73,7 +73,7 @@ public class Main {
   }
 
   static void forTest() {
-    for (int i = 0; i<10; i++) {
+    for (int i = 0; i < 10; i++) {
       System.out.println("こんにちは");
     }
   }
@@ -83,13 +83,13 @@ public class Main {
     String food = "お肉";
 
     System.out.println("こんにちは");
-    if(isHungry == 0) {
+    if (isHungry == 0) {
       System.out.println("お腹がいっぱいです");
     } else {
       System.out.println("はらぺこです");
     }
 
-    if(isHungry == 1) {
+    if (isHungry == 1) {
       System.out.println(food + "をいただきます");
     }
 
@@ -97,30 +97,30 @@ public class Main {
   }
 
   static void arrayTest() {
-    int[] score = new int [5];
+    int[] score = new int[5];
     score[0] = 50;
     System.out.println(score[0]);
 
-    int[] score1 = {112,2,3};
+    int[] score1 = {112, 2, 3};
     System.out.println(score1[0]);
 
     int[] seq = new int[10];
 
-    for(int i = 0; i < seq.length; i++) {
+    for (int i = 0; i < seq.length; i++) {
       seq[i] = new java.util.Random().nextInt(4);
     }
 
-    for(int i = 0; i < seq.length; i++) {
+    for (int i = 0; i < seq.length; i++) {
       char[] base = {'A', 'T', 'G', 'C'};
       System.out.print(base[seq[i]] + " ");
     }
     System.out.println("");
 
-    int[] numbers = {3,4,9};
+    int[] numbers = {3, 4, 9};
     System.out.println("1桁の数字を入力してください");
     int input = new java.util.Scanner(System.in).nextInt();
-    for(int value: numbers) {
-      if(value == input) {
+    for (int value : numbers) {
+      if (value == input) {
         System.out.println("アタリ！");
       }
     }
