@@ -8,6 +8,7 @@ public class Book extends TangibleAsset {
     super(name, price, color);
     this.isbn = isbn;
   }
+
   // メソッド
   public String getIsbn() {
     return this.isbn;

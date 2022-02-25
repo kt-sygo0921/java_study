@@ -1,5 +1,3 @@
-import calcapp.Calc;
-
 import java.util.Scanner;
 
 public class Main {
@@ -10,7 +8,7 @@ public class Main {
 //    whileTest();
 //    forTest();
 //    hungry();
-//    arrayTest();
+//    arrayTest();∑
 //    System.out.println(calcCircleArea(5.0));
 //    System.out.println((calcTriangleArea(10, 5)));
 //    Calc.main();
