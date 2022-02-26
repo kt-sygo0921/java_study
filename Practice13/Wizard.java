@@ -5,6 +5,7 @@ class Wizard {
   private int mp;
   private String name;
   private Wand wand;
+  int basePoint = 1;
 
   public String getName() {
     return this.name;
